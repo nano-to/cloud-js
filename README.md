@@ -37,4 +37,4 @@ MIT
 
 ## Stargazers
 
-[![Stargazers over time](https://starchart.cc/fwd/nano-js.svg)](https://github.com/fwd/nano-js)
+[![Stargazers over time](https://starchart.cc/nano-currency/cloud-js.svg)](https://github.com/nano-currency/cloud-js)
