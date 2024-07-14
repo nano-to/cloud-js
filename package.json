@@ -1,0 +1,11 @@
+{
+  "name": "@nano/cloud",
+  "version": "0.0.2",
+  "description": "An API client for Nano.to Cloud",
+  "main": "cjs/index.js",
+  "module": "esm/index.mjs",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
