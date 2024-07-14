@@ -1,7 +1,7 @@
 module.exports = (request) => ({
   list: (params) => request('/orders', 'GET', params),
-  find: (params) => request(`/orders/${params.id}`, 'GET', params),
+  get: (id, params) => request(`/orders/${id}`, 'GET', params),
   create: (data) => request('/orders', 'POST', data),
-  update: (data) => request(`/orders/${data.id}`, 'PUT', data),
-  delete: (params) => request(`/orders/${params.id}`, 'DELETE', params),
+  update: (id, data) => request(`/orders/${id}`, 'POST', data),
+  delete: (id, params) => request(`/orders/${id}`, 'DELETE', params),
 });

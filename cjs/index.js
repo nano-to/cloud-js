@@ -3,6 +3,8 @@ const orders = require('./orders');
 const products = require('./products');
 const wallets = require('./wallets');
 const checkouts = require('./checkouts');
+const customers = require('./customers');
+const discounts = require('./discounts');
 
 function Nano(apiKey, baseURL) {
 
@@ -45,9 +47,11 @@ function Nano(apiKey, baseURL) {
 
   return {
     checkouts: checkouts(request),
-    orders: orders(request),
     products: products(request),
+    orders: orders(request),
     wallets: wallets(request),
+    customers: customers(request),
+    discounts: discounts(request),
   };
 }
 
