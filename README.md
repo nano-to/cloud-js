@@ -1,15 +1,23 @@
 ![line](https://github.com/nano-currency/node-cli/raw/main/.github/line.png)
 
-<h1 align="center">Nano Cloud JS</h1>
+<h1 align="center">NodeJS library for Nano.to Cloud</h1>
 
 > In early beta. Not ready for general use. 
 
 ![line](https://github.com/nano-currency/node-cli/raw/main/.github/line.png)
 
-**NPM:**
+**CommonJS:**
 ```js
 // npm install @nano/wallet
-const nano = require('@nano/cloud')
+const nano = require('@nano/cloud')('API_KEY')
+```
+
+**ESM:**
+```js
+// npm install @nano/wallet
+import Nano from '@nano/cloud'
+
+const nano = new Nano('API_KEY')
 ```
 
 ![line](https://github.com/nano-currency/node-cli/raw/main/.github/line.png)
